@@ -25,7 +25,7 @@
     margin-top: 20px;
     border-radius:50px ;
     border: 2px solid #FEC544;
-}
+} 
 
 .btn-md:hover{
   color:#FEC544;
@@ -34,12 +34,61 @@
 
 }
 
-.text-secondary{
+.container{
 
-
-    color:#FEC544;
-
+    max-width: 1300px;
+    padding: 0 100px;
+    margin:0 auto;
 }
+    
+    .text-center{
+     text-align:center;
+
+
+    }
+
+    .m-heading{
+
+        font-size:32px;
+        margin-bottom:12px;
+    }
+
+        .title::before {
+    
+            content: '';
+            background: #07080B;;
+            height: 2px;
+            width: 200px;
+            margin: auto;
+            display: block;
+            transform: translateY(44px)
+    
+        }
+        .title::after{
+
+
+            content: '';
+            background:#07080B;
+            height: 7px;
+            width:65px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:40px;
+            display:block;
+            transform: translateY(1px);
+
+        }
+.about .about-content{
+
+     display: flex;
+     flex-wrap: wrap;
+     align-items:center;
+     justify-content: space-between;
+     transform:translateY(-60px);
+}
+
+    /* Showcase Background */
+    
 
 .showcase{
 
@@ -109,6 +158,8 @@
 
  }
 
+ 
+
  /* Showcase content section */
 
  .showcase-text{
@@ -149,4 +200,88 @@
     overflow: hidden;
  }
 
+ /* About Section Styling */
+
+ section h2 {
+
+     color: #FEC544
+ }
+
+ #about{
+  background:#07080B;
+
+ }
+
+ .about .title::before{
+
+    background:#FEC544 ;
+ }
+ .about .title::after{
+
+    background:#FEC544 ;
+ }
+
+ .about h1{
+
+    color:#6e6e70;
+    text-align:center;
+    font-size: 80px;
+    transform: translateY(20px);
+    opacity:0.1;
+    padding-top:-20px;
+
+ }
+
+ .about h2{
+
+     font-weight: 700;
+     transform:translateY(-65px);
+ }
+
+ .about .about-content .column {
+
+    margin-top: 40px;
+ }
+
+ .about .about-content .left {
+
+ width:55%;
+ padding: 0 20px;
+ overflow:hidden;
+
  
+ }
+
+ .about .about-content .left img{
+
+    height:450px;
+    width:450px;
+    object-fit:cover;
+    border-radius: 50%;
+    position: absolute;
+        left: -50px;
+        top: 20px
+    
+    
+    
+}
+
+.about .about-content .right {
+
+    
+    width: 45%;
+    color:#A9ADB8;
+    
+}
+
+.about .about-content .right .text{
+
+
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 10px;
+   
+   
+
+   
+}
