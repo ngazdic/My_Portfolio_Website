@@ -103,7 +103,7 @@
 /* Navbar Section */
 
 .navbar {
-
+ 
 
     position: fixed;
     width: 100%;
@@ -112,6 +112,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 999; 
  
 
 }
@@ -193,7 +194,11 @@
  }
 
 
+.showcase-text .text-3 span{
 
+color:#FEC544
+
+}
  .showcase-img img{
 
     position: absolute;
@@ -208,9 +213,17 @@
 
  /* About Section Styling */
 
+b{
+ 
+    display: inline-block;
+    position:;
+    margin-left:px ;
+    margin-bottom: px;
+}
+
  section h2 {
 
-     color: #FEC544
+     color: #FEC544;
  }
 
  #about{
@@ -298,6 +311,11 @@
     line-height:1.3;
 }
 
+.about .about-content .right .text span{
+
+    color:#FEC544 
+}
+
 .about .about-content .right .table {
 
     width:500px;
@@ -312,4 +330,117 @@
     padding: 10px ;
     
 
+}
+
+/* Services Section Styling  */
+
+#services{
+
+     color:#A9ADB8;
+     background:#FEC544;
+}
+
+.services h5{
+
+    font-weight:700;
+    color:#07080B;
+    transform: translateY(-65px);
+
+
+}
+.services h1{
+
+    color:#07080B;
+    text-align: center;
+    font-size: 80px;
+    transform: translateY(23px);
+    opacity: 0.1;
+    padding-top: -20px;
+
+}
+
+.services .service-content .main{
+
+    width:auto;
+    min-height:450px;
+text-align: center;
+border-radius: 5px ;
+position: relative;
+cursor: pointer;
+
+}
+
+.service {
+
+    background:#07080B;
+     padding:30px;
+     border-radius:10px;
+     position:absolute;
+     bottom:10;
+     transform:scale(1.05);
+     box-shadow: 0 0 20px -15px #07080B;
+     transition: transform 0.8s;
+
+}
+
+.service-logo {
+
+    /* width: 170px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -80px auto 0;
+      */
+
+    margin-bottom: 40px;
+    
+    background:#07080B;
+    
+    transform:transform 1s;
+}
+
+.service-logo i{
+
+    color:#FEC544;
+    margin-top: 20px;
+}
+.service h4 {
+
+    height:28px;
+    width:80%;
+    background:#07080B;
+    margin :60px auto;
+    position:relative; 
+
+}
+
+
+.service h4::after{
+
+    content:'';
+    width:40px;
+    height:30px;
+    background:linear-gradient(to right, #07080B,
+        #FEC544);
+        position: absolute;
+        right:-5px;
+        top:-5px;
+        z-index: -1;
+}
+
+.service h4::before {
+
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #FEC544,
+        #07080B );
+    position: absolute;
+    left: -5px;
+    bottom:-5px;
+    z-index: -1;
+}
+
+.shadowone{
+
+    
 }
