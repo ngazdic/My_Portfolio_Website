@@ -92,7 +92,7 @@
 
 .showcase{
 
-    background-image: url(real_background.jpeg);
+    background-image: url(john-fowler-7Ym9rpYtSdA-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -151,7 +151,7 @@
 
  .navbar ul li a {
 
-      color:#A9ADB8;
+      color:#dde1eb;
       font-weight: bold;
       transition:all 0.5s ease;
 
@@ -442,5 +442,33 @@ cursor: pointer;
 
 .shadowone{
 
-    
+    height:200px;
+    width:80%;
+    background:#07080B;
+    position:absolute;
+    border-radius:10px;
+    bottom:0;
+    left:10%;
+    z-index:-1;
+    box-shadow:0 0 20px -15px #07080B;
+
+
+
+
+
+}
+
+.shadowtwo {
+
+
+    height: 200px;
+    width:80%;
+    background:#07080B;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left:18%;
+    z-index: -2;
+    box-shadow: 0 0 20px -15px #07080B;
+
 }
