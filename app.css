@@ -519,3 +519,19 @@ section h2 {
 .skills .skill-content .column-right .csharp::before {
 	width: 60%;
 }
+
+.skills .skill-content .column-right .css::before {
+	width: 60%;
+}
+
+.skills .skill-content .column-right .js::before {
+	width: 40%;
+}
+
+.skills .skill-content .column-right .sql::before {
+	width: 45%;
+}
+
+.skills .skill-content .column-right .net::before {
+	width: 35%;
+}

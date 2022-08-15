@@ -2,5 +2,8 @@
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"cSpell.enabled": true,
-	"cSpell.words": ["Nikola"]
+	"cSpell.words": ["Nikola"],
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	}
 }
