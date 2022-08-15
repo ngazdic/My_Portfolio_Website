@@ -2,7 +2,7 @@
 
 
 
-I have created a portfolio to showcase my skills and projects. To achieve this, I implemented the following - 
+I have created a portfolio to showcase my skills and projects. To achieve this, I implemented the following: 
 
 
 
