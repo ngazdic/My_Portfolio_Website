@@ -535,3 +535,77 @@ section h2 {
 .skills .skill-content .column-right .net::before {
 	width: 35%;
 }
+
+/* Teams Section Styling */
+
+#teams {
+	color: #a9adb8;
+	background: #fec544;
+}
+
+.teams h5 {
+	font-weight: 700;
+	color: #07080b;
+	transform: translateY(-65px);
+}
+
+.teams h1 {
+	color: #07080b;
+	text-align: center;
+	font-size: 80px;
+	transform: translateY(23px);
+	opacity: 0.1;
+	padding-top: -20px;
+}
+
+.teams .team .card {
+	background: #07080b;
+	border-radius: 5px;
+	padding: 25px 35px;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.teams .team .card:hover {
+	background: #15151a;
+}
+
+.teams .team .card .box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+.teams .team .card:hover .box {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.teams .team .card .text {
+	font-size: 25px;
+	font-weight: 500;
+	margin: 10px 0 7px 0;
+}
+
+.teams .team .card img {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 5px solid #fec544;
+	transition: all 0.3s ease;
+}
+
+.teams .team .card:hover img {
+	border-color: #fff;
+	cursor: pointer;
+	
+}
+
+/* .teams .card p,
+.teams .card .text {
+	text-align: center;
+} */
