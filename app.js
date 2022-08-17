@@ -6,6 +6,10 @@ $(document).ready(function () {
 		} else {
 			$('.navbar').removeClass('sticky');
 		}
+
+		
+
+		
 	});
 
 	//For interactive typing of "Im Developer"

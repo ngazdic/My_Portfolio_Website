@@ -10,6 +10,12 @@
 	outline: none;
 }
 
+/* Smooth Scroll */
+
+html {
+	scroll-behavior: smooth;
+}
+
 /* Utility Classes */
 
 .btn-md {
@@ -66,8 +72,7 @@
 	transform: translateY(1px);
 }
 .about .about-content,
-.skills .skill-content,
-.contact .contact-content {
+.skills .skill-content {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -269,6 +274,22 @@ section h2 {
 #services {
 	color: #a9adb8;
 	background: #fec544;
+}
+
+.services .service-content .main .service p {
+	text-align: left;
+}
+
+.services .service-content .main .service p a {
+	color: white;
+	background: none;
+	transition: all 0.3s ease;
+	text-decoration: white underline;
+}
+
+.services .service-content .main .service p a:hover {
+	color: black;
+	background-color: gold;
 }
 
 .services h5 {
@@ -550,6 +571,10 @@ section h2 {
 	padding-bottom: 40px;
 }
 
+.teams .container a {
+	color: #a9adb8;
+}
+
 .teams h5 {
 	font-weight: 700;
 	color: #07080b;
@@ -597,6 +622,13 @@ section h2 {
 	margin: 10px 0 7px 0;
 }
 
+.teams .container .card .box .truecoders {
+	border: none;
+	margin-top: 10px;
+	border-radius: 8px;
+	height: 135px;
+}
+
 .teams .team .card img {
 	height: 300px;
 	width: 300px;
@@ -613,10 +645,17 @@ section h2 {
 
 /* Contact Me Section */
 
-.contact h5 {
-	color: #fec544;
-	font-weight: 700;
-	transform: translateY(-65px);
+#contact .contact-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	transform: translateY(-60px);
+}
+
+section {
+	padding: 40px 0;
+	background: #07080b;
 }
 
 .contact h1 {
@@ -627,26 +666,30 @@ section h2 {
 	opacity: 0.1;
 	padding-top: -20px;
 }
+.contact h5 {
+	color: #fec544;
+	font-weight: 700;
+	transform: translateY(-65px);
+}
 
-.contact .title::after {
+.contact .title::before {
 	background: #fec544;
 }
-.contact .title::before {
+.contact .title::after {
 	background: #fec544;
 }
 
 .contact .contact-content .column {
 	margin-top: 40px;
-	width: calc(50%-50px);
+	width: calc(50% - 50px);
 }
-
-.contact .contact-content .column-left h2 {
+.contact .contact-content .left h2 {
 	font-size: 30px;
 	margin-bottom: 50px;
 	color: #a9adb8;
 }
 
-.contact .contact-content .column-left .form-group input {
+.contact .contact-content .left .form-group input {
 	width: 100%;
 	padding: 10px;
 	margin: 15px 0;
@@ -655,7 +698,7 @@ section h2 {
 	border-radius: 5px;
 }
 
-.contact .contact-content .column-left .form-group textarea {
+.contact .contact-content .left .form-group textarea {
 	width: 100%;
 	background: #fff;
 	padding: 10px;
@@ -666,7 +709,73 @@ section h2 {
 .contact .contact-content .left .btn-md {
 	padding: 8px 18px;
 	font-size: 16px;
+	cursor: pointer;
 }
+
+.contact .contact-content .right {
+	color: #a9adb8;
+}
+
+.contact .contact-content .right h2 {
+	font-size: 30px;
+	margin-bottom: 15px;
+	color: #a9adb8;
+}
+
+.contact .contact-content .right p {
+	line-height: 1.6;
+}
+
+.contact .contact-content .right .items {
+	margin: 10px 0;
+}
+
+.contact .contact-content .right .items .item {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.contact .contact-content .right .items i {
+	padding: 16px;
+	border: 1px solid #a9adb8;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.contact .contact-content .right .items span {
+	font-size: 14px;
+}
+.contact .contact-content .right .links {
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.contact .contact-content .right .links li {
+	display: inline-block;
+	list-style: none;
+	padding-right: 15px;
+}
+
+.contact .contact-content .right .links li a {
+	color: #a9adb8;
+	text-decoration: none;
+}
+
+/* Footer Section styling */
+
+#footer {
+	text-align: center;
+	background: #fec544;
+	padding: 30px 0;
+	color: #07080b;
+	font-weight: 700;
+}
+
+
+
+
+
 
 /* .teams .card p,
 .teams .card .text {
