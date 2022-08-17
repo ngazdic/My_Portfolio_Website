@@ -66,12 +66,18 @@
 	transform: translateY(1px);
 }
 .about .about-content,
-.skills .skill-content {
+.skills .skill-content,
+.contact .contact-content {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	transform: translateY(-60px);
+}
+
+section {
+	padding: 40px 0;
+	background: #07080b;
 }
 
 /* Showcase Background */
@@ -541,6 +547,7 @@ section h2 {
 #teams {
 	color: #a9adb8;
 	background: #fec544;
+	padding-bottom: 40px;
 }
 
 .teams h5 {
@@ -602,7 +609,63 @@ section h2 {
 .teams .team .card:hover img {
 	border-color: #fff;
 	cursor: pointer;
-	
+}
+
+/* Contact Me Section */
+
+.contact h5 {
+	color: #fec544;
+	font-weight: 700;
+	transform: translateY(-65px);
+}
+
+.contact h1 {
+	color: #6e6e70;
+	text-align: center;
+	font-size: 80px;
+	transform: translateY(20px);
+	opacity: 0.1;
+	padding-top: -20px;
+}
+
+.contact .title::after {
+	background: #fec544;
+}
+.contact .title::before {
+	background: #fec544;
+}
+
+.contact .contact-content .column {
+	margin-top: 40px;
+	width: calc(50%-50px);
+}
+
+.contact .contact-content .column-left h2 {
+	font-size: 30px;
+	margin-bottom: 50px;
+	color: #a9adb8;
+}
+
+.contact .contact-content .column-left .form-group input {
+	width: 100%;
+	padding: 10px;
+	margin: 15px 0;
+	border: 1px solid #a9adb8;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.contact .contact-content .column-left .form-group textarea {
+	width: 100%;
+	background: #fff;
+	padding: 10px;
+	height: 150px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.contact .contact-content .left .btn-md {
+	padding: 8px 18px;
+	font-size: 16px;
 }
 
 /* .teams .card p,
